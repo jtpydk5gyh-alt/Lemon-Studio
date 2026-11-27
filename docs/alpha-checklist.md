@@ -206,8 +206,8 @@ the alpha; the larger gaps it found are on the roadmap.
 - [ ] **Consolidate and Export all playlist tracks leave out plugins.** Both render without hosted instruments and
   effects, so plugin channels come out silent; Consolidate still mutes the source clips
   ([playlist.rs](../crates/os-app/src/playlist.rs))
-- [ ] **The playlist's bars are always 4 beats.** Its bars, ruler and Bar snap ignore the project's time signature and
-  time signature markers
+- [x] **The playlist follows time signatures.** Its bars, ruler and Bar snap follow the project's time signature and
+  time signature markers ([#403](https://github.com/ItsAlphaNeon/Lemon-Studio/pull/403))
 - [ ] **Menus show keys that do something else.** The playlist's ▸ Select menu (Ctrl+Enter, Shift+C), the mixer track
   menu (Ctrl+E, Shift+E) and PATTERNS Clone (Shift+Ctrl+C, which has no handler)
 - [ ] **New or cloned channels vanish under a group filter.** They join no group, so they stay hidden until the filter
