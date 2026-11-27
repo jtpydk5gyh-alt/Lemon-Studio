@@ -102,7 +102,7 @@ yet is kept, not thrown away. This support is still young, so work on copies. Se
 |---|:---:|---|
 | Instrument rack | 🚧 | Arpeggiator, echo delay, gate, time shift and tracking |
 | Piano roll | 🚧 | Note colours, scale and chord helpers, sound for release velocity |
-| Arranger | 🚧 | Per-clip pitch, pan and reverse. Bars are always 4 beats. Consolidate and exporting all tracks leave plugins out |
+| Arranger | 🚧 | Per-clip pitch, pan and reverse. Consolidate and exporting all tracks leave plugins out |
 | Mixer and routing | ✅ | Other mixer layouts |
 | Plugin hosting | ✅ | Audio Units, outputs past a plugin's main stereo pair |
 | Built-in plugins | 🚧 | Some settings of the larger plugins aren't played yet |
@@ -169,7 +169,7 @@ Start with the [getting started guide](https://getlemonstudio.app/wiki/getting-s
 | Self-updating builds, and nightly builds with their own name and icon | ✅ |
 | HELP menu that opens the website and wiki | ✅ |
 | Stop plugin crashes from closing Lemon Studio on macOS and Linux (done on Windows) | 🚧 |
-| Decide which gaps found by the recent audit hold up the alpha, such as the arranger's fixed 4-beat bars | ⏳ |
+| Decide which remaining gaps found by the recent audit hold up the alpha | ⏳ |
 | Publish the first nightly builds | ⏳ |
 | Tag `v0.1.0`, the first alpha | ⏳ |
 
